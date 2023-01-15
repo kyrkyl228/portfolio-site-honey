@@ -1,0 +1,965 @@
+.content{
+
+}
+
+.margin{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content__main{
+    width: 100%;
+    background-image: url(../assets/img/bz.webp), url(../assets/img/bzzzz.webp), url(../assets/img/honey.webp);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 320px auto, 320px auto, 900px auto;
+    background-position: left calc(-781px + 50%) bottom 97px, left calc(-109px + 50%) bottom 566px, left calc(500px + 50%) bottom -45px;
+    height: 900px;
+}
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.main__filling{
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__text{
+    font-size: 200px;
+    font-weight: 900;
+    font-family: AlegreyaSans-Black;
+    color: rgb(255, 205, 68);
+}
+
+.main__best{
+    margin-top: -110px;
+    margin-left: 10px;
+    display: flex;
+    width: 500px;
+    height: 230px;
+    border-radius: 70px;
+    background-color: black;
+}
+
+.main__best-p{
+    padding-top: 30px;
+    margin: auto;
+    font-size: 100px;
+    font-family: AmaticSC-Bold;
+    color: white;
+}
+
+.main__lure{
+    margin-top: 30px;
+    width: 550px;
+    font-family: alegreya_sans_m;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.main__buttons{
+    margin-top: 30px;
+    height: 120px;
+}
+
+.main__button{
+    font-family: AlegreyaSans-Black;
+    font-size: 20px;
+    border: 0;
+    border-radius: 60px;
+    width: 220px;
+    height: 80px;
+    outline: 0px solid rgb(236, 236, 236);
+    transition: outline 0.4s ease;
+}
+
+.main__button:hover{
+    outline: 16px solid rgb(236, 236, 236);
+}
+
+.main__buy{
+    background-color: rgb(255, 205, 68);
+}
+
+.main__info{
+    margin-left: 30px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: black;
+}
+
+.content__about{
+    margin-top: -80px;
+    background-image: url(../assets/img/bz2.webp);
+    background-size: 500px auto;
+    background-repeat: no-repeat;
+    background-position: left calc(60% + 550px) bottom -130px;
+    width: 100%;
+    height: 900px;
+    display: flex
+}
+
+.about__filling{
+    display: flex;
+    border-radius: 50px;
+    margin: auto;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 20px 20px 30px rgba(216, 216, 216, 0.582);
+}
+
+.about__pictures{
+    margin-right: 30px;
+    min-width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__pictures-img{
+    border-radius: 50px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.about__woman-img{
+    margin-top: -40px;
+}
+
+.about__two-img{
+
+}
+
+.about__lure{
+    padding: 10px 20px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__head{
+    font-size: 90px;
+    font-family: alegreya_sans_bl;
+}
+
+.about__text{
+    margin-top: 30px;
+    font-family: alegreya_sans_r;
+    color: rgb(122, 122, 122);
+}
+
+.about__info-button{
+    margin-top: 50px;
+    font-family: AlegreyaSans-Black;
+    font-size: 20px;
+    border: 0;
+    border-radius: 60px;
+    width: 220px;
+    height: 80px;
+    background-color: rgb(255, 205, 68);
+    outline: 0px solid rgb(236, 236, 236);
+    transition: outline 0.4s ease;
+}
+
+.about__info-button:hover{
+    outline: 16px solid rgb(236, 236, 236);
+}
+
+.content__product{
+    overflow: hidden;
+    background-color: rgb(255, 242, 240);
+    background-image: url(../assets/img/bz3.webp), url(../assets/img/bz2.webp), url(../assets/img/hive.webp);
+    background-repeat: no-repeat;
+    background-size: 450px auto, 350px auto, 300px auto;
+    background-position: left calc(52% - 800px) top -120px, left calc(52% - 800px) top 750px, left calc(50% + 800px) top 600px ;
+    min-height: 1200px;
+}
+
+.product__filling{
+    margin: auto;
+    width: 100%;
+}
+
+.product__head-p{
+    font-size: 90px;
+    font-family: alegreya_sans_bl;
+    text-align: center;
+}
+
+.product__examples{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.product__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.product__example{
+    margin: auto;
+    display: flex;
+}
+
+.product__img-wrapper{
+    width: 100%;
+    height: auto;
+}
+
+.product__example-img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.product__description{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0 auto -80px;
+    padding: 25px;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.product__number{
+    -webkit-text-stroke: 1px rgb(218, 218, 218);
+    color: rgb(255, 205, 68, 0);
+    margin-top: -110px;
+    margin-left: 60px;
+    font-size: 160px;
+    line-height: 160px;
+    font-family: AlegreyaSans-Black;
+    transition: all 0.4s ease;
+}
+
+.product__example:hover .product__number{
+    color: rgb(255, 205, 68);
+}
+
+.product__info{
+    margin: auto 0;
+}
+
+.product__name{
+    font-family: alegreya_sans_m;
+    color: black;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.product__price{
+    margin-top: 10px;
+    word-spacing: 3px;
+    font-family: alegreya_sans_m;
+    font-size: 20px;
+    color: rgb(255, 205, 68);
+    font-weight: 500;
+}
+
+.product__buy{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    font-family: AlegreyaSans-Black;
+    font-size: 20px;
+    border: 0;
+    border-radius: 60px;
+    width: 220px;
+    height: 80px;
+    background-color: rgb(255, 205, 68);
+    outline: 0px solid rgb(236, 236, 236);
+    transition: outline 0.4s ease;
+}
+
+.product__buy:hover{
+    outline: 16px solid rgb(236, 236, 236);
+}
+
+.product__interested{
+    margin-top: 100px;
+    font-family: alegreya_sans_bl;
+    font-size: 30px;
+}
+
+.product__more{
+    color: rgb(255, 205, 68);
+}
+
+.content__why{
+    min-height: 1100px;
+}
+
+.why__filling{
+    margin: auto 0;
+}
+
+.why__top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.why__left{
+
+}
+
+.why__bee{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.why__bee-img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.why__reasons{
+    font-family: alegreya_sans_bl;
+    font-size: 40px;
+}
+
+.why__reasons-span{
+    color: rgb(255, 205, 68);
+}
+
+.why__text{
+    margin-top: 40px;
+    font-family: alegreya_sans_r;
+	color: rgb(122, 122, 122);
+}
+
+.why__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.why__right-li{
+    display: flex;
+}
+
+.why__right-wrapper{
+    margin: auto;
+    display: flex;
+    border-radius: 120px;
+    min-width: 120px;
+    height: 120px;
+    background-color: black;
+}
+
+.why__right-img{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.why__list-container{
+    margin: auto 0;
+    margin-left: 40px;
+}
+
+.why__list-head{
+    font-family: alegreya_sans_bl;
+	font-size: 20px;
+}
+
+.why__list-text{
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: alegreya_sans_r;
+	color: rgb(122, 122, 122);
+}
+
+.why__under{
+    margin-top: 100px;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.why__fact{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    background-color: rgb(255, 245, 217);
+    width: 100%;
+    min-height: 280px;
+    padding: 30px;
+}
+
+.fact__head{
+    font-size: 40px;
+    font-family: AlegreyaSans-Black;
+    font-weight: 900;
+    color: rgb(255, 205, 68);
+}
+
+.fact__lure{
+    font-family: AlegreyaSans-Black;
+    font-size: 20px;
+}
+
+.fact__description{
+    font-size: 16px;
+    font-family: alegreya_sans_r;
+	color: rgb(122, 122, 122);
+}
+
+/* 1150 */
+
+@media screen and (max-width: 1150px) {
+    .product__examples{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 60px;
+    }
+
+    .product__head-p{
+        font-size: 70px;
+    }
+}
+
+/* ---- */
+
+/* 1000px */
+
+@media screen and (max-width: 1000px) {
+    .about__pictures{
+        display: none;
+    }
+
+    .content__about {
+        margin-top: 0px;
+        background-image: url(../assets/img/bz2.webp);
+        background-size: 500px auto;
+        background-repeat: no-repeat;
+        background-position: left calc(60% + 550px) bottom -130px;
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    .about__filling{
+        display: flex;
+        border-radius: 0px;
+        margin: auto;
+        width: 100%;
+        height: auto;
+        background-color: none;
+        box-shadow: none;
+    }
+
+    .about__head{
+        text-align: center;
+    }
+
+    .about__info-button{
+        margin: 30px auto;
+    }
+
+    .about__woman-img-1000{
+        margin: 30px 0;
+        display: block!important;
+    }
+
+    .about__lure{
+        padding: 0;
+    }
+
+    .about__text {
+        margin-top: 0;
+    }
+
+    .why__top {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+    }
+
+    .why__right{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .why__under {
+        margin-top: 8vw;
+        display: grid;
+        grid-gap: 1vw;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .why__fact {
+        display: flex;
+        flex-direction: column;
+        border-radius: 5vw;
+        background-color: rgb(255, 245, 217);
+        width: 100%;
+        min-height: 28vw;
+        padding: 2.5vw;
+    }
+
+    .fact__head {
+        font-size: 4vw;
+        font-family: AlegreyaSans-Black;
+        font-weight: 900;
+        color: rgb(255, 205, 68);
+    }
+
+    .fact__lure {
+        font-family: AlegreyaSans-Black;
+        font-size: 2vw;
+    }
+
+    .fact__description {
+        font-size: 1.6vw;
+        font-family: alegreya_sans_r;
+        color: rgb(122, 122, 122);
+    }
+}
+
+
+/* ------ */
+
+/* 700 */
+
+@media screen and (max-width: 700px) {
+
+    .why__under{
+        margin-top: 100px;
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 1fr;
+    }
+    
+    .why__fact{
+        display: flex;
+        flex-direction: column;
+        border-radius: 50px;
+        background-color: rgb(255, 245, 217);
+        width: 100%;
+        min-height: 280px;
+        padding: 30px;
+    }
+    
+    .fact__head{
+        font-size: 40px;
+        font-family: AlegreyaSans-Black;
+        font-weight: 900;
+        color: rgb(255, 205, 68);
+    }
+    
+    .fact__lure{
+        font-family: AlegreyaSans-Black;
+        font-size: 20px;
+    }
+    
+    .fact__description{
+        font-size: 16px;
+        font-family: alegreya_sans_r;
+        color: rgb(122, 122, 122);
+    }
+}
+
+/* --- */
+
+/* 650px */
+
+@media screen and (max-width: 650px) {
+
+    .content__product{
+        min-height: auto;
+    }
+
+    .product__examples {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 9.23vw;
+    }
+
+    .main__filling{
+        margin: auto;
+    }
+
+    .main__head{
+        margin: 0 auto;
+    }
+
+    .main__buttons{
+        margin: 30px auto 0 auto;
+        
+    }
+
+    .main__button{
+        outline: 0px solid rgba(236, 236, 236, 0.541);
+    }
+
+    .main__button:hover{
+        outline: 16px solid rgba(236, 236, 236, 0.541);
+    }
+
+    .about__head{
+        font-size: 80px;
+    }
+
+    .about__lure{
+        padding: 0;
+    }
+
+    .about__text {
+        margin-top: 0;
+    }
+
+    .product__container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .product__example-img {
+        height: 61.5vw;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 4.6vw;
+    }
+
+    .product__description {
+        display: flex;
+        flex-direction: column;
+        margin: auto 0 auto -12.3vw;
+        padding: 3.85vw;
+        width: 100%;
+        height: 53.84vw;
+        background-color: white;
+        border-radius: 7.7vw;
+    }
+
+    .product__number {
+        -webkit-text-stroke: 0.15vw rgb(218, 218, 218);
+        color: rgb(255, 205, 68, 0);
+        margin-top: -16.92vw;
+        margin-left: 9.23vw;
+        font-size: 24.6vw;
+        line-height: 24.6vw;
+        font-family: AlegreyaSans-Black;
+        transition: all 0.4s ease;
+    }
+
+    .product__name {
+        font-family: alegreya_sans_m;
+        color: black;
+        font-size: 4vw;
+        font-weight: 900;
+    }
+
+    .product__price {
+        margin-top: 1.54vw;
+        word-spacing: 0.5vw;
+        font-family: alegreya_sans_m;
+        font-size: 3vw;
+        color: rgb(255, 205, 68);
+        font-weight: 500;
+    }
+
+    .product__buy {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        font-family: AlegreyaSans-Black;
+        font-size: 3vw;
+        border: 0;
+        border-radius: 9.23vw;
+        width: 34vw;
+        height: 12.3vw;
+        background-color: rgb(255, 205, 68);
+        outline: 0px solid rgb(236, 236, 236);
+        transition: outline 0.4s ease;
+    }
+
+    .product__buy:hover{
+        outline: 2.5vw solid rgb(236, 236, 236);
+    }
+
+    .product__interested {
+        margin-top: 15.4vw;
+        font-family: alegreya_sans_bl;
+        font-size: 4.6vw;
+    }
+
+    .product__head-p {
+        font-size: 10.8vw;
+    }
+
+    .why__filling{
+        margin: auto;
+    }
+}
+
+/* ----- */
+
+/* 600px */
+
+@media screen and (max-width: 600px){
+    .product__filling{
+        padding: 3vw 0;
+    }
+
+    .content__main{
+        width: 100%;
+        background-image: url(../assets/img/bz.webp), url(../assets/img/bzzzz.webp), url(../assets/img/honey.webp);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-size: 33.3vw auto, 0, 108vw auto;
+        background-position: 0 0, 0, calc(50% + 58vw) ;
+        height: auto;
+    }
+
+    .content__main{
+        height: auto;
+    }
+
+    .margin{
+        padding: 0 5px!important;
+    }
+
+    .main__lure{
+        margin: 3.5vw auto;
+        width: 90%;
+        font-size: 3vw;
+    }
+
+    .main__text{
+        font-size: 35vw;
+    }
+
+    .main__best{
+        margin-top: -20vw;
+        margin-left: 1.8vw;
+        width: 86vw;
+        height: 40vw;
+        border-radius: 12vw;
+    }
+
+    .main__best-p{
+        padding-top: 5.2vw;
+        font-size: 17.3vw;
+    }
+
+    .main__buttons{
+        margin: 5.2vw auto 0 auto;
+    }
+
+    .main__button{
+        font-size: 3.5vw;
+        border: 0;
+        border-radius: 10.5vw;
+        width: 38vw;
+        height: 13.8vw;
+        outline: 0px solid rgb(236, 236, 236);
+    }
+
+    .main__button:hover{
+        outline: 2.75vw solid rgba(236, 236, 236, 0.541);
+    }
+
+    .main__info{
+        margin-left: 5vw;
+	    letter-spacing: 0.15vw;
+    }
+
+    .why__filling{
+        margin: auto;
+    }
+
+
+}
+
+/* ----- */
+
+/* 500 */
+
+@media screen and (max-width:500px) {
+    .about__info-button{
+        width: 100%;
+        margin-top: 10vw;
+        font-family: AlegreyaSans-Black;
+        font-size: 4vw;
+        border: 0;
+        border-radius: 12vw;
+        width: 100%;
+        height: 16vw;
+        background-color: rgb(255, 205, 68);
+        outline: 0px solid rgb(236, 236, 236);
+        transition: outline 0.4s ease;
+    }
+
+    .about__head{
+        font-size: 15vw;
+    }
+
+    .about__pictures{
+
+    }
+
+    .about__woman-img-1000{
+        margin: 6vw 0;
+	    display: block!important;
+        border-radius: 10vw;
+    }
+
+    .about__text{
+        font-size: 3.2vw;
+    }
+
+    .about__text {
+        margin-top: 0;
+    }
+
+    .about__pictures-img {
+        width: 100%;
+        height: 80vw;
+        object-fit: cover;
+    }
+
+    .about__info-button:hover {
+        outline: 3.2vw solid rgb(236, 236, 236);
+    }
+
+    .why__filling{
+        margin: auto;
+    }
+
+    .content__why {
+        min-height: auto;
+    }
+
+    .why__top {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 8vw;
+    }
+
+    .why__left{
+
+    }
+
+    .why__bee {
+        margin: 0 auto;
+        width: 90vw;
+        height: 80vw;
+        overflow: hidden;
+    }
+
+    .why__bee-img {
+        width: 100%;
+        height: 80vw;
+        object-fit: cover;
+    }
+
+    .why__reasons {
+        font-family: alegreya_sans_bl;
+        font-size: 8vw;
+    }
+    
+    .why__text {
+        margin-top: 8vw;
+        font-family: alegreya_sans_r;
+        color: rgb(122, 122, 122);
+        font-size: 3.2vw;
+    }
+
+    .why__right {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 6vw;
+    }
+
+    .why__right-wrapper {
+        margin: auto;
+        display: flex;
+        border-radius: 24vw;
+        min-width: 24vw;
+        height: 24vw;
+        background-color: black;
+    }
+
+    .why__list-container {
+        margin: auto 0;
+        margin-left: 8vw;
+    }
+
+    .why__list-text {
+        margin-top: 2vw;
+        font-size: 2.8vw;
+        font-family: alegreya_sans_r;
+        color: rgb(122, 122, 122);
+    }
+
+    .why__list-head {
+        font-family: alegreya_sans_bl;
+        font-size: 4vw;
+    }
+}
+
+/* --- */
+
+/* 350px */
+
+    @media screen and (max-width: 350px) {
+        .why__filling{
+            margin: auto;
+        }
+
+        .why__under {
+            margin-top: 28.5vw;
+            display: grid;
+            grid-gap: 10vw;
+            grid-template-columns: 1fr;
+        }
+
+        .why__fact {
+            display: flex;
+            flex-direction: column;
+            border-radius: 14.3vw;
+            background-color: rgb(255, 245, 217);
+            width: 86vw;
+            min-height: 86vw;
+            padding: 8.6vw;
+            margin: 0 auto;
+        }
+
+        .fact__head {
+            font-size: 11.4vw;
+            font-family: AlegreyaSans-Black;
+            font-weight: 900;
+            color: rgb(255, 205, 68);
+        }
+
+        .fact__lure {
+            font-family: AlegreyaSans-Black;
+            font-size: 5.7vw;
+        }
+
+        .fact__description {
+            font-size: 4.6vw;
+            font-family: alegreya_sans_r;
+            color: rgb(122, 122, 122);
+        }
+    }
+
+/* ----- */

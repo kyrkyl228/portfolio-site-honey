@@ -1,0 +1,45 @@
+@font-face {
+    font-family: alegreya_sans_b;
+    src: url(../assets/fonts/alegreya_sans-b.woff2);
+}
+
+@font-face {
+    font-family: alegreya_sans_bl;
+    src: url(../assets/fonts/alegreya_sans-bl.woff2);
+}
+
+@font-face {
+    font-family: alegreya_sans_e;
+    src: url(../assets/fonts/alegreya_sans-e.woff2);
+}
+
+@font-face {
+    font-family: alegreya_sans_m;
+    src: url(../assets/fonts/alegreya_sans-m.woff2);
+}
+
+@font-face {
+    font-family: alegreya_sans_r;
+    src: url(../assets/fonts/alegreya_sans-r.woff2);
+}
+
+@font-face {
+    font-family: AlegreyaSans-Bold;
+    src: url(../assets/fonts/AlegreyaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: AlegreyaSans-Black;
+    src: url(../assets/fonts/AlegreyaSans-Black.ttf);
+}
+
+@font-face {
+    font-family: AmaticSC-Bold;
+    src: url(../assets/fonts/AmaticSC-Bold.ttf);
+}
+
+@font-face {
+    font-family: AmaticSC-Regular;
+    src: url(../assets/fonts/AmaticSC-Regular.ttf);
+}
+
